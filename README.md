@@ -1,13 +1,8 @@
+
 # 🚢 Freight Forecasting Model — Machine Learning
 
 An end-to-end, reproducible Machine Learning pipeline for medium-term freight demand forecasting, capacity planning, and logistics cost optimization.
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.0%2B-orange.svg)](https://scikit-learn.org/)
-[![Pandas](https://img.shields.io/badge/Pandas-1.4%2B-150458.svg)](https://pandas.pydata.org/)
-[![NumPy](https://img.shields.io/badge/NumPy-1.22%2B-013243.svg)](https://numpy.org/)
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626.svg)](https://jupyter.org/)
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 ---
 
@@ -240,8 +235,4 @@ Select **Kernel > Restart & Run All** to reproduce all figures, baseline evaluat
 
 ---
 
-## 🛡️ Reproducibility Guarantee
 
-- **Fixed Random State:** `RANDOM_STATE = 42` across all models and splits.
-- **Strict Chronological Splitting:** 70% Train, 15% Validation, 15% Test.
-- **Zero Future Leakage:** StandardScaler and tercile threshold boundaries are fitted strictly on the training partition.
